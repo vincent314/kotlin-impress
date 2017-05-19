@@ -1,29 +1,110 @@
+- var currentX= -2800, currentY = -2500;
+- function move(x,y){currentX += x; currentY += y;}
+
 #title.step(data-x='1000', data-y='1000', data-scale='10')
     img#logo(src="assets/kotlin-logo.png")
     h1 Kotlin
     ul
-        li
-            i.fa.fa-twitter(aria-hidden="true")
-            span &nbsp;@vincent314
+        //li
+        //    i.fa.fa-twitter(aria-hidden="true")
+        //    span &nbsp;@vincent314
         li
             i.fa.fa-github(aria-hidden="true")
             span &nbsp;https://github.com/vincent314/kotlin-impress
 
 
-#introduction.step(data-x='-1000', data-y='-1000', data-scale='3')
-    p Statically typed programming language for the <u>JVM</u>, <u>Android</u> and the <u>browser</u>
+#introduction1.step(data-x=currentX, data-y=currentY, data-scale='3')
+    p Créé en 2011 par une équipe de <u>Jetbrains</u> à St Petersbourg
 
-#jvm.step(data-x='-800', data-y='-1000', data-scale='2')
+- move(0, 600)
+#introduction2.step(data-x=currentX, data-y=currentY, data-scale='3')
+    p
+        em "Statically typed programming language for the <u>JVM</u>, <u>Android</u> and the <u>browser</u>"
+
+- move(-1200,800)
+#jvm.step(data-x=currentX, data-y=currentY, data-scale='2')
     h1 Language de la JVM
     ul
-        li JRE 6+
-        li Java, Groovy, Scala …
+        li JRE 6+ (Android !)
+        li Java, Groovy, Scala…
+        li intégration parfaite
+            span.cf Spring, Maven, Gradle…
+        li IDE support (IntelliJ, Android Studio 3 …)
 
-#test-code.step(data-x='0', data-y='0', data-scale='1')
+- move(0, 600)
+#javascript.step(data-x=currentX, data-y=currentY, data-scale='2')
+    ul
+        li Transpilation Javascript
+        li Compilation <u>native</u>
+            span.cf experimental ! MacOS, iOS, Ubuntu & Pi
+
+
+- move(1800, -600)
+#features.step(data-x=currentX, data-y=currentY, data-scale='2', data-rotate-y=180)
+    h1 Features
+    ul
+        li Nouvelle syntaxe étendue et concise
+        li Nouveaux idioms et paradigmes de programmation
+            span.cf cf. Javascript, Scala, Ruby…
+        li Gestion des <strong>null</strong>
+        li ~Java8 très outillé
+            span.cf lombok, Javaslang
+        li Domain Specific Language (DSL)
+
+- move(1800, -300)
+#situation.step(data-x=currentX, data-y=currentY, data-scale='2')
+    h1 Situation
+    ul
+        li développement très actif
+        li version actuelle
+            strong 1.1.2
+        li quelques fonctions expérimentales
+            span.cf coroutines
+        li first class language pour Android
+
+- move(0, 700)
+#resource.step(data-x=currentX, data-y=currentY, data-scale='2')
+    h1 Resources
+    ul
+        li
+            a(href="http://kotlinlang.org/docs/reference/", target="_blank") Documentation
+        li
+            a(href="https://try.kotlinlang.org/#/Kotlin%20Koans", target="_blank") Try KOANS
+        li
+            a(href="https://kotlin.link/", target="_blank") Liens
+
+
+- move(1800, -1500)
+#hello-world.step(data-x=currentX, data-y=currentY, data-scale='2')
+    h1 Hello !
+    pre
+        code.kotlin.
+            fun main(args: Array&lt;String>) {
+                println("Hello Kotlin")
+            }
+
+- currentX = -2000; currentY = 3500
+#val-var.step(data-x=currentX, data-y=currentY, data-scale='2', data-rotate-z=180)
+    h1 var vs val
+
+    h3 Java
     pre
         code.java.
-            final String test = "TEST";
-            System.out.println(test);
-    span Toto2
+            final int value = 1;
+            int variable = 1;
+            // forbidden : value = 2;
+            variable = 2;
+
+    h3 Kotlin
+    pre
+        code.kotlin.
+            val value = 1
+            var variable = 1
+            // forbidden : value = 2
+            variable = 2
+
+- move(-1800, 0)
+#class.step(data-x=currentX, data-y=currentY, data-scale='2', data-rotate-z=180)
+    h1 classes
 
 #overview.step(data-x='3000', data-y='1500', data-scale='10')

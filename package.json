@@ -27,7 +27,7 @@
     "test:dev": "karma start",
     "test:sauce": "karma start karma.conf-sauce.js",
     "pug": "pug src/pug/index.pug -o ./",
-    "sass": "node-sass src/scss/ -o css/ && postcss css/*.css --use autoprefixer -d css/",
+    "sass": "node-sass src/scss/impress-kotlin.scss -o css/ && postcss css/*.css --use autoprefixer -d css/",
     "compile": "npm run pug && npm run sass",
     "serve": "serve -p 3000 | livereload ./ -d"
   },

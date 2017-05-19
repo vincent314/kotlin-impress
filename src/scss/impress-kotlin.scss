@@ -1,20 +1,26 @@
+@import "./common.scss";
+
 code {
   font-family: monospace;
-  font-size: 13px;
+  font-size: 75%;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 18.5714px;
+  line-height: 40px;
 }
 
 h1 {
-  font-size: 120%;
+  font-size: 140%;
+  //text-shadow: 10px 10px 20px #2b303b;
 }
+
+.cf {
+  font-size: 70%;
+  color: lighten($text-color, 30%);
+  padding-left: 1em;
+}
+
 #title {
-
-  //&.present {
-  //  width: 500px;
-
   h1, img {
     display: inline;
     margin: 0;
@@ -28,59 +34,36 @@ h1 {
   #logo {
     height: 150px;
   }
-    //p {
-    //  color: #2125ff;
-    //}
 
-    //p.rotating {
-    //  transform: rotate(-180deg);
-    //  transition-delay: 0.25s;
-    //  transition: 1s;
-    //}
+}
+
+#jvm {
+  @include animate-fadein('h1');
+  @include animate-li(4);
+}
+
+#features {
+  @include animate-fadein('h1');
+  @include animate-li(5);
+}
+
+#javascript {
+  @include animate-li(2);
+}
+
+#situation {
+  @include animate-fadein('h1');
+  @include animate-li(3);
+}
+
+#resource {
+  @include animate-fadein('h1');
+  @include animate-li(3);
+}
+
+#hello-world {
+  //h1,h3,pre {
+  //  @include animate-fadein
   //}
 
-}
-
-@keyframes keyframe-fadein {
-  from {opacity:0;}
-  to {opacity:1;}
-}
-
-
-@mixin fadein($delay){
-  animation: keyframe-fadein 1s linear $delay normal;
-  animation-fill-mode: forwards;
-  //animation-name: keyframe-fadein;
-  //animation-duration: 1s;
-  //animation-delay: $delay;
-  //animation-timing-function: linear;
-}
-
-@mixin fadein-li($nb){
-  @for $i from 1 through $nb {
-    li{
-      opacity: 0;
-    }
-
-    &.past {
-      li{
-        opacity: 1;
-      }
-    }
-
-    &.present {
-      li:nth-child(1){
-        @include fadein(0.25s)
-      }
-      li:nth-child(2){
-        @include fadein(0.5s)
-      }
-    }
-  }
-
-}
-
-
-#jvm{
-  @include fadein-li(2);
 }
