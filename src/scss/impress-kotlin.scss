@@ -27,7 +27,7 @@ h1 {
     font-family: sans-serif;
   }
 
-  li {
+  p {
     font-size: 80%;
   }
 
@@ -37,9 +37,13 @@ h1 {
 
 }
 
+#introduction1, #introduction2 {
+  @include animate-fadein('p');
+}
+
 #jvm {
   @include animate-fadein('h1');
-  @include animate-li(4);
+  @include animate-li(6);
 }
 
 #features {
@@ -53,17 +57,21 @@ h1 {
 
 #situation {
   @include animate-fadein('h1');
-  @include animate-li(3);
+  @include animate-li(4);
 }
 
 #resource {
   @include animate-fadein('h1');
-  @include animate-li(3);
+  @include animate-li(4);
 }
 
 #hello-world {
-  //h1,h3,pre {
-  //  @include animate-fadein
-  //}
+  @include animate-fadein('h1');
+  @include animate-fadein('pre');
+}
 
+#val-var {
+  @include animate-fadein('h1');
+  @include animate-fadein('h3');
+  @include animate-fadein('pre');
 }

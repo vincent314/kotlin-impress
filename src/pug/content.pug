@@ -1,16 +1,12 @@
-- var currentX= -2800, currentY = -2500;
+- var currentX= -2800, currentY = -2800;
 - function move(x,y){currentX += x; currentY += y;}
 
 #title.step(data-x='1000', data-y='1000', data-scale='10')
     img#logo(src="assets/kotlin-logo.png")
     h1 Kotlin
-    ul
-        //li
-        //    i.fa.fa-twitter(aria-hidden="true")
-        //    span &nbsp;@vincent314
-        li
-            i.fa.fa-github(aria-hidden="true")
-            span &nbsp;https://github.com/vincent314/kotlin-impress
+    p
+        i.fa.fa-github(aria-hidden="true") &nbsp;
+        span https://github.com/vincent314/kotlin-impress
 
 
 #introduction1.step(data-x=currentX, data-y=currentY, data-scale='3')
@@ -21,7 +17,7 @@
     p
         em "Statically typed programming language for the <u>JVM</u>, <u>Android</u> and the <u>browser</u>"
 
-- move(-1200,800)
+- move(-1200,1100)
 #jvm.step(data-x=currentX, data-y=currentY, data-scale='2')
     h1 Language de la JVM
     ul
@@ -30,28 +26,25 @@
         li intégration parfaite
             span.cf Spring, Maven, Gradle…
         li IDE support (IntelliJ, Android Studio 3 …)
-
-- move(0, 600)
-#javascript.step(data-x=currentX, data-y=currentY, data-scale='2')
-    ul
         li Transpilation Javascript
         li Compilation <u>native</u>
             span.cf experimental ! MacOS, iOS, Ubuntu & Pi
 
 
-- move(1800, -600)
-#features.step(data-x=currentX, data-y=currentY, data-scale='2', data-rotate-y=180)
+- move(1800, 0)
+#features.step(data-x=currentX, data-y=currentY, data-scale='1')
     h1 Features
     ul
         li Nouvelle syntaxe étendue et concise
         li Nouveaux idioms et paradigmes de programmation
             span.cf cf. Javascript, Scala, Ruby…
-        li Gestion des <strong>null</strong>
+        li Gestion des
+            strong null
         li ~Java8 très outillé
             span.cf lombok, Javaslang
         li Domain Specific Language (DSL)
 
-- move(1800, -300)
+- move(1800, 0)
 #situation.step(data-x=currentX, data-y=currentY, data-scale='2')
     h1 Situation
     ul
@@ -60,22 +53,31 @@
             strong 1.1.2
         li quelques fonctions expérimentales
             span.cf coroutines
-        li first class language pour Android
+        li <em>first class language</em> pour Android
 
 - move(0, 700)
 #resource.step(data-x=currentX, data-y=currentY, data-scale='2')
     h1 Resources
     ul
         li
-            a(href="http://kotlinlang.org/docs/reference/", target="_blank") Documentation
+            a(href="http://kotlinlang.org/docs/reference/", target="_blank")
+                i.fa.fa-book &nbsp;
+                span Documentation
         li
-            a(href="https://try.kotlinlang.org/#/Kotlin%20Koans", target="_blank") Try KOANS
+            a(href="https://try.kotlinlang.org/#/Kotlin%20Koans", target="_blank")
+                i.fa.fa-terminal &nbsp;
+                span Try KOANS
         li
-            a(href="https://kotlin.link/", target="_blank") Liens
+            a(href="https://kotlin.link/", target="_blank")
+                i.fa.fa-link &nbsp;
+                span Liens
+        li
+            a(href="https://www.youtube.com/watch?v=X1RVYt2QKQE", target="_blank")
+                i.fa.fa-youtube-play &nbsp;
+                span Présentation @ Google I/O 2017
 
-
-- move(1800, -1500)
-#hello-world.step(data-x=currentX, data-y=currentY, data-scale='2')
+- currentX = -2000; currentY = 3500
+#hello-world.step(data-x=currentX, data-y=currentY, data-scale='2', data-rotate-z=180)
     h1 Hello !
     pre
         code.kotlin.
@@ -83,7 +85,7 @@
                 println("Hello Kotlin")
             }
 
-- currentX = -2000; currentY = 3500
+- move(-1800, 0)
 #val-var.step(data-x=currentX, data-y=currentY, data-scale='2', data-rotate-z=180)
     h1 var vs val
 
@@ -102,9 +104,5 @@
             var variable = 1
             // forbidden : value = 2
             variable = 2
-
-- move(-1800, 0)
-#class.step(data-x=currentX, data-y=currentY, data-scale='2', data-rotate-z=180)
-    h1 classes
 
 #overview.step(data-x='3000', data-y='1500', data-scale='10')
