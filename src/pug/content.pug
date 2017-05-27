@@ -6,7 +6,7 @@
     h1 Kotlin
     p
         i.fa.fa-github(aria-hidden="true") &nbsp;
-        span https://github.com/vincent314/kotlin-impress
+        span https://vincent314.github.com/kotlin-impress
 
 
 #introduction1.step(data-x=currentX, data-y=currentY, data-scale='3')
@@ -17,7 +17,15 @@
     p
         em "Statically typed programming language for the <u>JVM</u>, <u>Android</u> and the <u>browser</u>"
 
-- move(-1200,1100)
+- move(0, 800)
+#introduction3.step(data-x=currentX, data-y=currentY, data-scale='3')
+    h1 E = mc²
+
+- move(0, 500)
+#introduction4.step(data-x=currentX, data-y=currentY, data-scale='3')
+    h1 Error = more_code²
+
+- move(2500,-1000)
 #jvm.step(data-x=currentX, data-y=currentY, data-scale='2')
     h1 Language de la JVM
     ul
@@ -48,8 +56,7 @@
         li Nouvelle syntaxe étendue et concise
         li Nouveaux idioms et paradigmes de programmation
             span.cf cf. Javascript, Scala, Ruby…
-        li Gestion des
-            strong null
+        li Gestion des null
         li ~Java8 très outillé
             span.cf lombok, Javaslang
         li Domain Specific Language (DSL)
@@ -72,12 +79,12 @@
 #features3.step(data-x=currentX, data-y=currentY, data-scale='1')
     ul
         li destructuration
-            li classes et héritage
-                span.cf open / sealed
-            li lazy evaluation
-            li sequences
-            li coroutines et async.
-                span.cf EXPERIMENTAL
+        li classes et héritage
+            span.cf open / sealed
+        li lazy evaluation
+        li sequences
+        li coroutines et async.
+            span.cf EXPERIMENTAL
 
 
 
@@ -102,7 +109,7 @@
                 i.fa.fa-youtube-play &nbsp;
                 span Présentation @ Google I/O 2017
 
-- currentX = -2000; currentY = 3500
+- currentX = 4000; currentY = 4000
 #hello-world.step(data-x=currentX, data-y=currentY, data-scale='2', data-rotate-z=180)
     h1 Hello !
     pre
@@ -130,5 +137,30 @@
             var variable = 1
             // forbidden : value = 2
             variable = 2
+
+- move(-2400,0)
+#data-class.step(data-x=currentX, data-y=currentY, data-scale='2',data-rotate-z=180)
+    h1 Data class
+
+    h3 Java
+    pre
+        code.java.
+            public class JavaUser {
+                    private String firstname;
+                    private String lastname;
+                    // Getters and Setters …
+            }
+
+            JavaUser javaUser = new JavaUser("John", "DOE");
+            System.out.println("Hello, " + javaUser.getFirstname() + " "
+                  + javaUser.getLastname()); // Hello, John DOE
+
+    h3 Kotlin
+    pre
+        code.kotlin.
+            data class User(var firstname:String, var lastname:String)
+
+            val (firstname, lastname) = User(firstname = "John", lastname = "DOE")
+            println("Hello, $firstname $lastname") // Hello, John DOE
 
 #overview.step(data-x='3000', data-y='1500', data-scale='10')

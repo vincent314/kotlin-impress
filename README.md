@@ -3,6 +3,8 @@ Introduction to Kotlin
 
 Introduction to Kotlin slides, based on [Impress.js](http://impress.github.io/impress.js).
 
+To view this presentation, go to [https://vincent314.github.io/kotlin-impress](https://vincent314.github.io/kotlin-impress)
+
 Getting started
 ----------------
 

@@ -41,6 +41,18 @@ h1 {
   @include animate-fadein('p');
 }
 
+#introduction3, #introduction4 {
+  @include animate-fadein('h1');
+}
+
+#introduction3 {
+  width: 1300px;
+  h1 {
+    text-align: center;
+    font-size: 5em;
+  }
+}
+
 #jvm {
   @include animate-fadein('h1');
   @include animate-li();
@@ -83,4 +95,16 @@ h1 {
   @include animate-fadein('h1');
   @include animate-fadein('h3');
   @include animate-fadein('pre');
+}
+
+#data-class{
+  @include animate-fadein('h1');
+  @include animate-fadein('h3');
+  @include animate-fadein('pre');
+
+  width: 1500px;
+
+  code {
+    font-size: .5em;
+  }
 }

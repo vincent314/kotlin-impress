@@ -1,34 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92417564-f2df-4336-a029-ac2d11ffceab" name="Default" comment="feat(project): init project + first slides and animation">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/Customer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/StatisticService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/Statistics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/customers/StatisticsServiceKt.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/resources/customers.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/JavaTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/KotlinSpecs.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/step2/Step2Spec.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/step3/Step3Spec.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/common.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/KotlinDemoApplicationTests.kt" afterPath="" />
+    <list default="true" id="92417564-f2df-4336-a029-ac2d11ffceab" name="Default" comment="feat(project): add introduction and demo slides">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/dataclass/DataClassTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/dataclass/JavaUser.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/step1/Step1.kt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/impress-kotlin.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/step1/Main.kt" afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/step1/Step1.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../kotlin-demo/pom.xml" afterPath="$PROJECT_DIR$/../kotlin-demo/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/impress-demo.css" afterPath="$PROJECT_DIR$/css/impress-demo.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/step3/Step3Spec.kt" afterPath="$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/dataclass/Step3Spec.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/impress-kotlin.css" afterPath="$PROJECT_DIR$/css/impress-kotlin.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pug/content.pug" afterPath="$PROJECT_DIR$/src/pug/content.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/impress-kotlin.scss" afterPath="$PROJECT_DIR$/src/scss/impress-kotlin.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../kotlin-demo/target/" />
+    <ignored path="$USER_HOME$/temp/test-kotlin-webapp/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,69 +27,51 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="kotlin-impress" />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="impress-kotlin.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/scss/impress-kotlin.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="338">
-                  <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="content.pug" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/pug/content.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="13">
-                  <caret line="42" column="62" lean-forward="true" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="impress-kotlin.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/impress-kotlin.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Object" />
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>comm</find>
-      <find>rotating</find>
-      <find>favi</find>
-      <find>strong</find>
-      <find>h</find>
-      <find>h1</find>
-      <find>cf</find>
-      <find>color</find>
-      <find>li</find>
-      <find>ul</find>
-      <find>list-styl</find>
       <find>r</find>
       <find>resour</find>
       <find>starter</find>
       <find>transl</find>
       <find>transla</find>
       <find>translate</find>
-      <find>t</find>
       <find>tr</find>
       <find>tra</find>
       <find>tran</find>
@@ -111,13 +84,29 @@
       <find>animatio</find>
       <find>animation</find>
       <find>animate-fadeinTranslate</find>
+      <find>fa-</find>
+      <find>l</find>
+      <find>jackson</find>
+      <find>BigDecimal(</find>
+      <find>1.1.2</find>
+      <find>kotlin.version</find>
+      <find>corou</find>
+      <find>first_name</find>
+      <find>last_name</find>
+      <find>!!</find>
+      <find>t</find>
+      <find>animate-li\(\d+</find>
     </findStrings>
     <replaceStrings>
       <replace>it</replace>
       <replace>animate-fadein</replace>
+      <replace>firstname</replace>
+      <replace>lastname</replace>
+      <replace>animate-li(</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -142,19 +131,37 @@
         <option value="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/step2/Step2.kt" />
         <option value="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/step2/User.kt" />
         <option value="$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/step2/Step2Spec.kt" />
-        <option value="$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/step3/Step3Spec.kt" />
         <option value="$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/ValVar.java" />
         <option value="$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/JavaTests.java" />
         <option value="$PROJECT_DIR$/../kotlin-demo/src/test/resources/users.json" />
-        <option value="$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/Customer.java" />
         <option value="$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/Statistics.java" />
         <option value="$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/StatisticService.java" />
-        <option value="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/customers/StatisticsServiceKt.kt" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/Customer.java" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/CustomerContainer.java" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/customers/CustomerContainer.kt" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.json" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/main/resources/customers.json" />
         <option value="$PROJECT_DIR$/../kotlin-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/customers/CustomerApp.kt" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/customers/Customer.kt" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/main/resources/customers-with-null.json" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/StatisticsSpec.java" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/JavaCustomer.java" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/JavaStatisticService.java" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/customers/StatisticsServiceKt.kt" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/JavaStatisticsSpec.java" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/JavaStatisticsSpec1.java" />
         <option value="$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/KotlinSpecs.kt" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/StatisticsSpecs.kt" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/JavaStatisticsSpec2.java" />
         <option value="$PROJECT_DIR$/src/scss/common.scss" />
-        <option value="$PROJECT_DIR$/src/scss/impress-kotlin.scss" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/step3/Step3Spec.kt" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/dataclass/Step3Spec.kt" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/dataclass/JavaUser.java" />
+        <option value="$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/dataclass/DataClassTest.java" />
         <option value="$PROJECT_DIR$/src/pug/content.pug" />
+        <option value="$PROJECT_DIR$/src/scss/impress-kotlin.scss" />
       </list>
     </option>
   </component>
@@ -167,7 +174,50 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="kotlin-demo" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="kotlin-demo" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="com.fasterxml.jackson.module:jackson-module-kotlin:2.8.8" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="kotlin-demo" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
@@ -201,7 +251,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test-kotlin-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="kotlin-impress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin-scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,46 +272,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kotlin-impress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-impress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-impress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-impress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-impress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,253 +282,19 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kotlin-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-impress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-impress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlindemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-impress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlindemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="step3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-impress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlindemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="step2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-impress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlindemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-impress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-impress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlindemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-impress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlindemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="step1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-impress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -517,14 +303,10 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JSON" />
+    <property name="full.screen.before.presentation.mode" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../kotlin-demo/src/main/resources" />
-      <recent name="$PROJECT_DIR$/../kotlin-demo/src/test/java" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/scss" />
-    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="org.vince.kotlindemo.step1" />
     </key>
@@ -533,6 +315,12 @@
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../kotlin-demo/src/main/resources" />
+      <recent name="$PROJECT_DIR$/../kotlin-demo/src/test/java" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/scss" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -548,10 +336,88 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.compile">
-    <configuration default="false" name="org.vince.kotlindemo.step3.Step3Spec" type="spek-run-configuration" factoryName="Spek" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="JavaStatisticsSpec2.shouldGroupByCountryWithJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.vince.kotlindemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="kotlin-demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.vince.kotlindemo" />
+      <option name="MAIN_CLASS_NAME" value="org.vince.kotlindemo.JavaStatisticsSpec2" />
+      <option name="METHOD_NAME" value="shouldGroupByCountryWithJava" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="JavaStatisticsSpec2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.vince.kotlindemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="kotlin-demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.vince.kotlindemo" />
+      <option name="MAIN_CLASS_NAME" value="org.vince.kotlindemo.JavaStatisticsSpec2" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="JavaStatisticsSpec1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.vince.kotlindemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="kotlin-demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.vince.kotlindemo" />
+      <option name="MAIN_CLASS_NAME" value="org.vince.kotlindemo.JavaStatisticsSpec1" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="org.vince.kotlindemo.StatisticsSpecs" type="spek-run-configuration" factoryName="Spek" temporary="true" nameIsGenerated="true">
       <module name="kotlin-demo" />
       <option name="target" value="spec" />
-      <option name="spec" value="org.vince.kotlindemo.step3.Step3Spec" />
+      <option name="spec" value="org.vince.kotlindemo.StatisticsSpecs" />
       <option name="vm-parameters" value="" />
       <option name="program-parameters" value="" />
       <option name="working-directory" value="" />
@@ -559,47 +425,10 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="org.vince.kotlindemo.KotlinSpecs-&gt;describe Classes-&gt;it should create new car" type="spek-run-configuration" factoryName="Spek" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="org.vince.kotlindemo.KotlinSpecs" type="spek-run-configuration" factoryName="Spek" temporary="true" nameIsGenerated="true">
       <module name="kotlin-demo" />
       <option name="target" value="spec" />
       <option name="spec" value="org.vince.kotlindemo.KotlinSpecs" />
-      <option name="path" value="eyJ0eXBlIjoic3BlYyIsImRlc2NyaXB0aW9uIjoib3JnLnZpbmNlLmtvdGxpbmRlbW8uS290bGluU3BlY3MiLCJuZXh0Ijp7InR5cGUiOiJncm91cCIsImRlc2NyaXB0aW9uIjoiZGVzY3JpYmUgQ2xhc3NlcyIsIm5leHQiOnsidHlwZSI6InRlc3QiLCJkZXNjcmlwdGlvbiI6Iml0IHNob3VsZCBjcmVhdGUgbmV3IGNhciIsIm5leHQiOm51bGx9fX0=" />
-      <option name="vm-parameters" value="" />
-      <option name="program-parameters" value="" />
-      <option name="working-directory" value="" />
-      <option name="alternative-jre-path" value="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="org.vince.kotlindemo.KotlinSpecs-&gt;describe Classes-&gt;it should start optimized BMW car" type="spek-run-configuration" factoryName="Spek" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-demo" />
-      <option name="target" value="spec" />
-      <option name="spec" value="org.vince.kotlindemo.KotlinSpecs" />
-      <option name="path" value="eyJ0eXBlIjoic3BlYyIsImRlc2NyaXB0aW9uIjoib3JnLnZpbmNlLmtvdGxpbmRlbW8uS290bGluU3BlY3MiLCJuZXh0Ijp7InR5cGUiOiJncm91cCIsImRlc2NyaXB0aW9uIjoiZGVzY3JpYmUgQ2xhc3NlcyIsIm5leHQiOnsidHlwZSI6InRlc3QiLCJkZXNjcmlwdGlvbiI6Iml0IHNob3VsZCBzdGFydCBvcHRpbWl6ZWQgQk1XIGNhciIsIm5leHQiOm51bGx9fX0=" />
-      <option name="vm-parameters" value="" />
-      <option name="program-parameters" value="" />
-      <option name="working-directory" value="" />
-      <option name="alternative-jre-path" value="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="org.vince.kotlindemo.KotlinSpecs-&gt;describe Coroutines-&gt;it should run 2 timers" type="spek-run-configuration" factoryName="Spek" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-demo" />
-      <option name="target" value="spec" />
-      <option name="spec" value="org.vince.kotlindemo.KotlinSpecs" />
-      <option name="path" value="eyJ0eXBlIjoic3BlYyIsImRlc2NyaXB0aW9uIjoib3JnLnZpbmNlLmtvdGxpbmRlbW8uS290bGluU3BlY3MiLCJuZXh0Ijp7InR5cGUiOiJncm91cCIsImRlc2NyaXB0aW9uIjoiZGVzY3JpYmUgQ29yb3V0aW5lcyIsIm5leHQiOnsidHlwZSI6InRlc3QiLCJkZXNjcmlwdGlvbiI6Iml0IHNob3VsZCBydW4gMiB0aW1lcnMiLCJuZXh0IjpudWxsfX19" />
-      <option name="vm-parameters" value="" />
-      <option name="program-parameters" value="" />
-      <option name="working-directory" value="" />
-      <option name="alternative-jre-path" value="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="org.vince.kotlindemo.KotlinSpecs-&gt;describe Coroutines" type="spek-run-configuration" factoryName="Spek" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-demo" />
-      <option name="target" value="spec" />
-      <option name="spec" value="org.vince.kotlindemo.KotlinSpecs" />
-      <option name="path" value="eyJ0eXBlIjoic3BlYyIsImRlc2NyaXB0aW9uIjoib3JnLnZpbmNlLmtvdGxpbmRlbW8uS290bGluU3BlY3MiLCJuZXh0Ijp7InR5cGUiOiJncm91cCIsImRlc2NyaXB0aW9uIjoiZGVzY3JpYmUgQ29yb3V0aW5lcyIsIm5leHQiOm51bGx9fQ==" />
       <option name="vm-parameters" value="" />
       <option name="program-parameters" value="" />
       <option name="working-directory" value="" />
@@ -1009,19 +838,19 @@
       <item index="0" class="java.lang.String" itemvalue="npm.serve" />
       <item index="1" class="java.lang.String" itemvalue="npm.compile" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.KotlinDemoApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spek.org.vince.kotlindemo.step3.Step3Spec" />
-      <item index="4" class="java.lang.String" itemvalue="Spek.org.vince.kotlindemo.KotlinSpecs-&gt;describe Classes-&gt;it should create new car" />
-      <item index="5" class="java.lang.String" itemvalue="Spek.org.vince.kotlindemo.KotlinSpecs-&gt;describe Classes-&gt;it should start optimized BMW car" />
-      <item index="6" class="java.lang.String" itemvalue="Spek.org.vince.kotlindemo.KotlinSpecs-&gt;describe Coroutines-&gt;it should run 2 timers" />
-      <item index="7" class="java.lang.String" itemvalue="Spek.org.vince.kotlindemo.KotlinSpecs-&gt;describe Coroutines" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.JavaStatisticsSpec2.shouldGroupByCountryWithJava" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JavaStatisticsSpec2" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.JavaStatisticsSpec1" />
+      <item index="6" class="java.lang.String" itemvalue="Spek.org.vince.kotlindemo.StatisticsSpecs" />
+      <item index="7" class="java.lang.String" itemvalue="Spek.org.vince.kotlindemo.KotlinSpecs" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spek.org.vince.kotlindemo.KotlinSpecs-&gt;describe Coroutines" />
-        <item index="1" class="java.lang.String" itemvalue="Spek.org.vince.kotlindemo.KotlinSpecs-&gt;describe Coroutines-&gt;it should run 2 timers" />
-        <item index="2" class="java.lang.String" itemvalue="Spek.org.vince.kotlindemo.KotlinSpecs-&gt;describe Classes-&gt;it should start optimized BMW car" />
-        <item index="3" class="java.lang.String" itemvalue="Spek.org.vince.kotlindemo.KotlinSpecs-&gt;describe Classes-&gt;it should create new car" />
-        <item index="4" class="java.lang.String" itemvalue="Spek.org.vince.kotlindemo.step3.Step3Spec" />
+        <item index="0" class="java.lang.String" itemvalue="Spek.org.vince.kotlindemo.KotlinSpecs" />
+        <item index="1" class="java.lang.String" itemvalue="Spek.org.vince.kotlindemo.StatisticsSpecs" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.JavaStatisticsSpec1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JavaStatisticsSpec2" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.JavaStatisticsSpec2.shouldGroupByCountryWithJava" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
@@ -1037,90 +866,101 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="org_vince_kotlindemo_KotlinSpecs-_describe_Coroutines - 2017.05.15 at 13h 56m 38s.xml">
-      <configuration name="org.vince.kotlindemo.KotlinSpecs-&gt;describe Coroutines" configurationId="spek-run-configuration" />
+    <history-entry file="JavaStatisticsSpec1 - 2017.05.27 at 16h 36m 13s.xml">
+      <configuration name="JavaStatisticsSpec1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="org_vince_kotlindemo_KotlinSpecs-_describe_Coroutines - 2017.05.15 at 14h 17m 18s.xml">
-      <configuration name="org.vince.kotlindemo.KotlinSpecs-&gt;describe Coroutines" configurationId="spek-run-configuration" />
+    <history-entry file="JavaStatisticsSpec2 - 2017.05.27 at 16h 36m 07s.xml">
+      <configuration name="JavaStatisticsSpec2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="org_vince_kotlindemo_KotlinSpecs-_describe_Coroutines - 2017.05.15 at 14h 18m 39s.xml">
-      <configuration name="org.vince.kotlindemo.KotlinSpecs-&gt;describe Coroutines" configurationId="spek-run-configuration" />
+    <history-entry file="JavaStatisticsSpec2_shouldGroupByCountryWithJava - 2017.05.27 at 16h 18m 36s.xml">
+      <configuration name="JavaStatisticsSpec2.shouldGroupByCountryWithJava" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="org_vince_kotlindemo_KotlinSpecs-_describe_Coroutines - 2017.05.15 at 14h 19m 27s.xml">
-      <configuration name="org.vince.kotlindemo.KotlinSpecs-&gt;describe Coroutines" configurationId="spek-run-configuration" />
+    <history-entry file="JavaStatisticsSpec2_shouldGroupByCountryWithJava - 2017.05.27 at 16h 19m 30s.xml">
+      <configuration name="JavaStatisticsSpec2.shouldGroupByCountryWithJava" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="org_vince_kotlindemo_KotlinSpecs-_describe_Coroutines-_it_should_run_2_timers - 2017.05.15 at 13h 47m 13s.xml">
-      <configuration name="org.vince.kotlindemo.KotlinSpecs-&gt;describe Coroutines-&gt;it should run 2 timers" configurationId="spek-run-configuration" />
+    <history-entry file="JavaStatisticsSpec2_shouldGroupByCountryWithJava - 2017.05.27 at 16h 19m 45s.xml">
+      <configuration name="JavaStatisticsSpec2.shouldGroupByCountryWithJava" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="org_vince_kotlindemo_KotlinSpecs-_describe_Coroutines-_it_should_run_2_timers - 2017.05.15 at 13h 52m 56s.xml">
-      <configuration name="org.vince.kotlindemo.KotlinSpecs-&gt;describe Coroutines-&gt;it should run 2 timers" configurationId="spek-run-configuration" />
+    <history-entry file="JavaStatisticsSpec_shouldGroupByCountry - 2017.05.27 at 16h 02m 51s.xml">
+      <configuration name="JavaStatisticsSpec.shouldGroupByCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="org_vince_kotlindemo_KotlinSpecs-_describe_Coroutines-_it_should_run_2_timers - 2017.05.15 at 13h 53m 42s.xml">
-      <configuration name="org.vince.kotlindemo.KotlinSpecs-&gt;describe Coroutines-&gt;it should run 2 timers" configurationId="spek-run-configuration" />
+    <history-entry file="org_vince_kotlindemo_KotlinSpecs - 2017.05.27 at 16h 40m 53s.xml">
+      <configuration name="org.vince.kotlindemo.KotlinSpecs" configurationId="spek-run-configuration" />
     </history-entry>
-    <history-entry file="org_vince_kotlindemo_step3_Step3Spec - 2017.05.14 at 19h 42m 36s.xml">
-      <configuration name="org.vince.kotlindemo.step3.Step3Spec" configurationId="spek-run-configuration" />
+    <history-entry file="org_vince_kotlindemo_KotlinSpecs-_describe_Statistic_Service-_given_a_JSON_test_file_with_null_values-_it_should_not_be_able_to_read_file - 2017.05.26 at 22h 33m 02s.xml">
+      <configuration name="org.vince.kotlindemo.KotlinSpecs-&gt;describe Statistic Service-&gt;given a JSON test file with null values-&gt;it should not be able to read file" configurationId="spek-run-configuration" />
     </history-entry>
-    <history-entry file="org_vince_kotlindemo_step3_Step3Spec - 2017.05.14 at 19h 43m 40s.xml">
-      <configuration name="org.vince.kotlindemo.step3.Step3Spec" configurationId="spek-run-configuration" />
+    <history-entry file="org_vince_kotlindemo_KotlinSpecs-_describe_Statistic_Service-_given_a_test_JSON_file-_it_should_group_by_country_with_Kotlin - 2017.05.27 at 16h 15m 26s.xml">
+      <configuration name="org.vince.kotlindemo.KotlinSpecs-&gt;describe Statistic Service-&gt;given a test JSON file-&gt;it should group by country with Kotlin" configurationId="spek-run-configuration" />
     </history-entry>
-    <history-entry file="org_vince_kotlindemo_step3_Step3Spec - 2017.05.14 at 19h 43m 51s.xml">
-      <configuration name="org.vince.kotlindemo.step3.Step3Spec" configurationId="spek-run-configuration" />
+    <history-entry file="org_vince_kotlindemo_StatisticsSpecs - 2017.05.27 at 16h 39m 21s.xml">
+      <configuration name="org.vince.kotlindemo.StatisticsSpecs" configurationId="spek-run-configuration" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1680" y="-250" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27018943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32103688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18194444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2029762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998006" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270809" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270809" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32590857" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32103688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18194444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998006" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1132,10 +972,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(project): init project + first slides and animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(project): init project + first slides and animation" />
+    <MESSAGE value="feat: add content and animations" />
+    <MESSAGE value="fix(slides): fix content" />
+    <MESSAGE value="feat(project): add some tests" />
+    <MESSAGE value="feat(project): add group by country Java and Kotlin tests" />
+    <MESSAGE value="fix(test): do not use intermediate container for json file" />
+    <MESSAGE value="feat(tests): java and kotlin tests on statistics service" />
+    <MESSAGE value="feat(project): add features slides" />
+    <MESSAGE value="feat(project): add introduction and demo slides" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(project): add introduction and demo slides" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1143,468 +994,523 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/scss/common.scss">
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/step2/Step2.kt" />
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/KotlinDemoApplicationTests.kt" />
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/step2/User.kt" />
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding>
-            <marker date="1495233197000" expanded="true" signature="39:98" ph="..." />
-            <marker date="1495233197000" expanded="true" signature="48:69" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="75:96" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="127:218" ph="..." />
-            <marker date="1495233197000" expanded="true" signature="136:189" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="195:216" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="242:323" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="356:448" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="473:692" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="480:501" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="512:550" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="521:546" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="564:690" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="597:686" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="625:680" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="724:857" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="738:759" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="780:801" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="825:855" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/KotlinSpecs.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <marker date="1494850756000" expanded="false" signature="37:336" ph="..." />
-            <marker date="1494850756000" expanded="true" signature="391:484" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="413:482" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="512:1970" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="541:713" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="578:707" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="739:1461" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="770:1034" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="865:906" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="932:1024" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1074:1276" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1174:1266" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1313:1355" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1402:1455" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1490:1968" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1526:1962" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1552:1952" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1668:1740" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1785:1863" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding>
-            <marker date="1495233197000" expanded="true" signature="39:98" ph="..." />
-            <marker date="1495233197000" expanded="true" signature="48:69" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="75:96" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="127:218" ph="..." />
-            <marker date="1495233197000" expanded="true" signature="136:189" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="195:216" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="242:323" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="356:448" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="473:692" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="480:501" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="512:550" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="521:546" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="564:690" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="597:686" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="625:680" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="724:857" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="738:759" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="780:801" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="825:855" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/KotlinSpecs.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <marker date="1494850756000" expanded="false" signature="37:336" ph="..." />
-            <marker date="1494850756000" expanded="true" signature="391:484" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="413:482" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="512:1970" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="541:713" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="578:707" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="739:1461" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="770:1034" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="865:906" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="932:1024" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1074:1276" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1174:1266" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1313:1355" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1402:1455" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1490:1968" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1526:1962" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1552:1952" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1668:1740" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1785:1863" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1508">
-          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/KotlinSpecs.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="70" column="49" lean-forward="false" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
-          <folding>
-            <marker date="1494850756000" expanded="false" signature="37:336" ph="..." />
-            <marker date="1494850756000" expanded="true" signature="391:484" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="413:482" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="512:1970" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="541:713" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="578:707" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="739:1461" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="770:1034" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="865:906" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="932:1024" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1074:1276" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1174:1266" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1313:1355" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1402:1455" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1490:1968" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1526:1962" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1552:1952" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1668:1740" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1785:1863" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1183">
-          <caret line="91" column="26" lean-forward="false" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/customers/StatisticsServiceKt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1183">
-          <caret line="91" column="26" lean-forward="false" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/customers/StatisticsServiceKt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.jade" />
-    <entry file="file://$PROJECT_DIR$/___index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1209">
-          <caret line="93" column="16" lean-forward="true" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/___index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="152" column="18" lean-forward="false" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/highlight/highlight.pack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="1" column="11238" lean-forward="false" selection-start-line="1" selection-start-column="11232" selection-end-line="1" selection-end-column="11238" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/impress.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/autoprefixer/data/prefixes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="473" column="26" lean-forward="false" selection-start-line="473" selection-start-column="26" selection-end-line="473" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.jade" />
-    <entry file="file://$PROJECT_DIR$/node_modules/pug/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="90" column="5" lean-forward="false" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/___index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="156" column="12" lean-forward="false" selection-start-line="156" selection-start-column="12" selection-end-line="157" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/kotlin-logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/livereload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/livereload/ext/livereload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="260" column="72" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="437" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="468">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
+        <state relative-caret-position="42">
           <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/common.css" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/impress-kotlin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/impress-demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="118" column="2" lean-forward="true" selection-start-line="118" selection-start-column="2" selection-end-line="118" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/step2/Step2.kt" />
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/KotlinDemoApplicationTests.kt" />
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/KotlinDemoApplication.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1494696738000" expanded="false" signature="37:147" ph="..." />
-            <marker date="1494696738000" expanded="true" signature="231:302" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/step1/Step1.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/step2/User.kt" />
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/step2/Step2Spec.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/step3/Step3Spec.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="12" column="71" lean-forward="true" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/resources/customers.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1162" column="30" lean-forward="true" selection-start-line="1162" selection-start-column="30" selection-end-line="1162" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
+        <state relative-caret-position="28">
           <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/StatisticService.java">
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/JavaCustomerContainer.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.1.2/kotlin-stdlib-1.1.2-sources.jar!/kotlin/collections/Maps.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="22" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="84" column="25" lean-forward="false" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/customers/StatisticsServiceKt.kt">
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/customers/CustomerContainer.kt" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="184">
+          <caret line="283" column="12" lean-forward="false" selection-start-line="283" selection-start-column="12" selection-end-line="283" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/JavaTests.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/math/BigDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="14">
+          <caret line="870" column="11" lean-forward="false" selection-start-line="870" selection-start-column="11" selection-end-line="870" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.1.2/kotlin-stdlib-1.1.2-sources.jar!/kotlin/util/Tuples.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.1.2/kotlin-stdlib-1.1.2-sources.jar!/kotlin/coroutines/experimental/CoroutineContext.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/temp/test-kotlin-webapp/src/test/kotlin/org/vince/SimpleSpec.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/temp/test-kotlin-webapp/src/test/kotlin/org/vince/CoroutingSpec.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/temp/test-kotlin-webapp/src/main/kotlin/org/vince/services/UserService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/temp/test-kotlin-webapp/src/main/kotlin/org/vince/rest/UserResource.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/KotlinDemoApplication.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../kotlin-demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="132" column="37" lean-forward="false" selection-start-line="132" selection-start-column="37" selection-end-line="132" selection-end-column="37" />
+        <state relative-caret-position="434">
+          <caret line="115" column="39" lean-forward="true" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="39" />
+          <folding>
+            <marker date="1495570931000" expanded="true" signature="143:6394" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="533:763" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="781:1117" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="1137:1281" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="1158:1261" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="1301:3123" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="1322:1457" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="1478:1657" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="1678:1853" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="1874:2046" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="2067:2245" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="2266:2482" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="2503:2708" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="2729:2913" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="2936:3103" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="3136:6381" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="3154:6368" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="3175:4828" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="3374:4806" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="3406:4070" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="3479:3561" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="3601:4037" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="3636:3735" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="3776:3996" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="4102:4776" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="4180:4267" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="4307:4743" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="4342:4441" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="4482:4702" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="4849:6158" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="5042:6136" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="5165:5291" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="5418:5548" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="5580:5820" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="5705:5787" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="5852:6106" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="5987:6073" ph="..." />
+            <marker date="1495570931000" expanded="true" signature="6201:6349" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlinx/kotlinx-coroutines-core/0.15/kotlinx-coroutines-core-0.15.jar!/kotlinx/coroutines/experimental/CoroutineStart.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlinx/kotlinx-coroutines-core/0.15/kotlinx-coroutines-core-0.15.jar!/kotlinx/coroutines/experimental/BuildersKt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="119" lean-forward="true" selection-start-line="7" selection-start-column="119" selection-end-line="7" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.1.2/kotlin-stdlib-1.1.2-sources.jar!/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="1420" column="37" lean-forward="false" selection-start-line="1420" selection-start-column="37" selection-end-line="1420" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/customers/Customer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.1.2/kotlin-stdlib-1.1.2-sources.jar!/kotlin/collections/Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="114" column="21" lean-forward="false" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/resources/customersA.json" />
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/resources/customersB.json" />
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/resources/customersC.json" />
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/resources/customers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="117" column="28" lean-forward="true" selection-start-line="117" selection-start-column="28" selection-end-line="118" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/resources/customers-with-null.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.1.2/kotlin-stdlib-1.1.2-sources.jar!/kotlin/Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="134" column="17" lean-forward="false" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/JavaTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1494784755000" expanded="true" signature="115:234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/JavaCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="1113" column="17" lean-forward="false" selection-start-line="1113" selection-start-column="17" selection-end-line="1113" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/java/org/vince/kotlindemo/customers/JavaStatisticService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1495896432000" expanded="false" signature="48:278" ph="..." />
+            <marker date="1495896432000" expanded="true" signature="411:555" ph="{...}" />
+            <marker date="1495896432000" expanded="true" signature="651:1746" ph="{...}" />
+            <marker date="1495896432000" expanded="true" signature="1000:1543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/StatisticsSpecs.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="37" column="44" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+          <folding>
+            <marker date="1495896247000" expanded="true" signature="37:470" ph="..." />
+            <marker date="1495896247000" expanded="true" signature="502:3177" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="696:3175" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="728:1801" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="784:1791" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="1837:2788" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="2514:2778" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="2841:3169" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="2971:3159" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/JavaStatisticsSpec1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding>
+            <marker date="1495896432000" expanded="true" signature="31:506" ph="..." />
+            <marker date="1495896432000" expanded="true" signature="614:1209" ph="{...}" />
+            <marker date="1495896432000" expanded="true" signature="1279:1543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Before.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/JavaStatisticsSpec2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <marker date="1495894781000" expanded="true" signature="38:580" ph="..." />
+            <marker date="1495894781000" expanded="true" signature="747:1625" ph="{...}" />
+            <marker date="1495894781000" expanded="true" signature="1703:1864" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="70">
+            <caret line="5" column="122" lean-forward="false" selection-start-line="5" selection-start-column="122" selection-end-line="5" selection-end-column="122" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/step1/Step1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/step2/Step2Spec.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <marker date="1494716557000" expanded="false" signature="43:190" ph="..." />
+            <marker date="1494716557000" expanded="true" signature="215:696" ph="{...}" />
+            <marker date="1494716557000" expanded="true" signature="232:427" ph="{...}" />
+            <marker date="1494716557000" expanded="true" signature="362:421" ph="{...}" />
+            <marker date="1494716557000" expanded="true" signature="461:694" ph="{...}" />
+            <marker date="1494716557000" expanded="true" signature="503:688" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/dataclass/Step3Spec.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <marker date="1495909913000" expanded="false" signature="47:194" ph="..." />
+            <marker date="1495909913000" expanded="true" signature="219:520" ph="{...}" />
+            <marker date="1495909913000" expanded="true" signature="310:518" ph="{...}" />
+            <marker date="1495909913000" expanded="true" signature="361:512" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/dataclass/JavaUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <marker date="1495910336000" expanded="true" signature="179:248" ph="{...}" />
+            <marker date="1495910336000" expanded="false" signature="282:293" ph=" { " />
+            <marker date="1495910336000" expanded="false" signature="310:316" ph=" }" />
+            <marker date="1495910336000" expanded="false" signature="364:375" ph=" { " />
+            <marker date="1495910336000" expanded="false" signature="402:408" ph=" }" />
+            <marker date="1495910336000" expanded="false" signature="441:452" ph=" { " />
+            <marker date="1495910336000" expanded="false" signature="468:474" ph=" }" />
+            <marker date="1495910336000" expanded="false" signature="520:531" ph=" { " />
+            <marker date="1495910336000" expanded="false" signature="556:562" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/java/org/vince/kotlindemo/dataclass/DataClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <marker date="1495910336000" expanded="true" signature="136:312" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/org/vince/kotlindemo/KotlinSpecs.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="350">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding>
-            <marker date="1494850756000" expanded="false" signature="37:336" ph="..." />
-            <marker date="1494850756000" expanded="true" signature="391:484" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="413:482" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="512:1970" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="541:713" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="578:707" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="739:1461" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="770:1034" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="865:906" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="932:1024" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1074:1276" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1174:1266" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1313:1355" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1402:1455" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1490:1968" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1526:1962" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1552:1952" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1668:1740" ph="{...}" />
-            <marker date="1494850756000" expanded="true" signature="1785:1863" ph="{...}" />
+            <marker date="1495896247000" expanded="false" signature="37:416" ph="..." />
+            <marker date="1495896247000" expanded="true" signature="474:567" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="496:565" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="595:2362" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="624:796" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="661:790" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="822:1544" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="853:1117" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="948:989" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="1015:1107" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="1157:1359" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="1257:1349" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="1396:1438" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="1485:1538" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="1573:2051" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="1609:2045" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="1635:2035" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="1751:1823" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="1868:1946" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="2077:2360" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="2106:2354" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="2135:2217" ph="{...}" />
+            <marker date="1495896247000" expanded="true" signature="2264:2344" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/customers/CustomerApp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/org/vince/kotlindemo/customers/StatisticsServiceKt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <marker date="1495893344000" expanded="true" signature="47:231" ph="..." />
+            <marker date="1495893344000" expanded="true" signature="257:1066" ph="{...}" />
+            <marker date="1495893344000" expanded="true" signature="689:1064" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+        <state relative-caret-position="325">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
-            <marker date="1495233197000" expanded="true" signature="39:98" ph="..." />
-            <marker date="1495233197000" expanded="true" signature="48:69" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="75:96" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="127:218" ph="..." />
-            <marker date="1495233197000" expanded="true" signature="136:189" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="195:216" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="242:323" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="356:448" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="473:692" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="480:501" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="512:550" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="521:546" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="564:690" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="597:686" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="625:680" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="724:857" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="738:759" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="780:801" ph="{...}" />
-            <marker date="1495233197000" expanded="true" signature="825:855" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="39:98" ph="..." />
+            <marker date="1495897926000" expanded="true" signature="48:69" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="75:96" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="127:218" ph="..." />
+            <marker date="1495897926000" expanded="true" signature="136:189" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="195:216" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="242:323" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="356:448" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="470:688" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="477:498" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="509:547" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="518:543" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="561:686" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="593:682" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="621:676" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="720:853" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="734:755" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="776:797" ph="{...}" />
+            <marker date="1495897926000" expanded="true" signature="821:851" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/content.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="42" column="62" lean-forward="true" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
-          <folding />
+        <state relative-caret-position="416">
+          <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+          <folding>
+            <marker date="1495912763000" expanded="true" signature="61:93" ph="{...}" />
+            <marker date="1495912763000" expanded="true" signature="100:323" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="215:323" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="340:466" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="497:667" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="558:667" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="698:768" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="799:880" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="905:1316" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="993:1316" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="1066:1130" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="1231:1316" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="1344:1642" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="1423:1642" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="1470:1512" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="1523:1588" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="1669:2040" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="1747:2040" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="1805:1901" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="1940:1998" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="2068:2353" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="2068:2354" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="2146:2353" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="2229:2266" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="2381:2648" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="2443:2648" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="2481:2535" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="2594:2648" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="2680:3407" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="2759:3407" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="2770:2918" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="2784:2918" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="2929:3083" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="2943:3083" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="3094:3217" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="3108:3217" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="3228:3407" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="3242:3407" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="3456:3675" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="3553:3675" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="3566:3675" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="3702:4122" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="3815:3962" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="3828:3962" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="3984:4122" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="3997:4122" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="4151:4936" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="4151:4937" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="4231:4243" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="4263:4668" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="4276:4668" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="4690:4936" ph="..." />
+            <marker date="1495912763000" expanded="true" signature="4703:4936" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/impress-kotlin.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="447">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding />
         </state>
       </provider>
