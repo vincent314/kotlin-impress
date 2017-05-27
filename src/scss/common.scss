@@ -29,7 +29,7 @@ $text-color: black;
   animation-fill-mode: forwards;
 }
 
-@mixin animate-li($nb) {
+@mixin animate-li() {
   li {
     opacity: 0;
   }
@@ -41,7 +41,7 @@ $text-color: black;
   }
 
   &.present {
-    @for $i from 1 through $nb {
+    @for $i from 1 through 30 {
       li:nth-child(#{$i}) {
         @include fadeinTranslate($i * 0.25s);
       }

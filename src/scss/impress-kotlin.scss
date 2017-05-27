@@ -43,26 +43,35 @@ h1 {
 
 #jvm {
   @include animate-fadein('h1');
-  @include animate-li(6);
+  @include animate-li();
 }
 
 #features {
   @include animate-fadein('h1');
-  @include animate-li(5);
+  @include animate-li();
+}
+
+#features2 {
+  @include animate-fadein('h1');
+  @include animate-li();
+}
+
+#features3 {
+  @include animate-li();
 }
 
 #javascript {
-  @include animate-li(2);
+  @include animate-li();
 }
 
 #situation {
   @include animate-fadein('h1');
-  @include animate-li(4);
+  @include animate-li();
 }
 
 #resource {
   @include animate-fadein('h1');
-  @include animate-li(4);
+  @include animate-li();
 }
 
 #hello-world {
