@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/../kotlin-demo/kotlin-demo.iml" filepath="$PROJECT_DIR$/../kotlin-demo/kotlin-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../kotlin-scripts/kotlin-scripts.iml" filepath="$PROJECT_DIR$/../kotlin-scripts/kotlin-scripts.iml" />
       <module fileurl="file://$PROJECT_DIR$/kotlin-slides.iml" filepath="$PROJECT_DIR$/kotlin-slides.iml" />
-      <module fileurl="file://$USER_HOME$/temp/test-kotlin-webapp/test-kotlin-webapp.iml" filepath="$USER_HOME$/temp/test-kotlin-webapp/test-kotlin-webapp.iml" />
     </modules>
   </component>
 </project>
